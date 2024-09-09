@@ -35,5 +35,8 @@ a{
     font-weight: bold;
     letter-spacing: 2px;
     cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
 
 }
