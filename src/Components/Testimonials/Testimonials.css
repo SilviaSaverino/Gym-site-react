@@ -19,3 +19,10 @@
     right: auto;
     left: 0;
 }
+.member-info {
+    font-size: 1.2rem;
+}
+
+h3,h4 {
+   font-family: "Bebas Neue", sans-serif;;
+}
