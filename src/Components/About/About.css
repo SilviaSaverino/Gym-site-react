@@ -7,7 +7,7 @@
 }
 
 .about-left {
-    flex-basis: 40%;
+    flex-basis: 45%;
     position: relative;
 }
 
@@ -25,14 +25,12 @@
 }
 
 .about-right {
-    flex-basis: 56%;
+    flex-basis: 50%;
 }
 
 .about-right p {
     margin-bottom: 10px;
-    font-weight: normal;
 }
-
 
 .about h3,
 .about h2 {
@@ -40,14 +38,18 @@
     font-weight: 600;
 }
 
+.about h2 {
+    letter-spacing: 1.2px;
+}
+
 .about h3 {
     font-size: 18px;
     color: #e97451;
+    letter-spacing: 2px;
 }
 
 
 .about h2 {
     font-size: 1.6rem;
     margin: 10px 0;
-    max-width: 400px;
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './Programs.css'
-import strength from '../../assets/strength-program.png'
-import wellbeing from '../../assets/wellbeing-program.png'
-import hiit from '../../assets/hiit-program.png'
-import hiit_icon from '../../assets/hiit-program-icon.png'
-import strength_icon from '../../assets/strength-program-icon.png'
-import wellbeing_icon from '../../assets/wellbeing-program-icon.png'
+import strength from '../../assets/images/strength-program.png'
+import wellbeing from '../../assets/images/wellbeing-program.png'
+import hiit from '../../assets/images/hiit-program.png'
+import hiit_icon from '../../assets/images/hiit-program-icon.png'
+import strength_icon from '../../assets/images/strength-program-icon.png'
+import wellbeing_icon from '../../assets/images/wellbeing-program-icon.png'
 
 const Programs = () => {
   return (
