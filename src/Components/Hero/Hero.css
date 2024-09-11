@@ -17,6 +17,10 @@
     font-size: 1.6rem;
 }
 
+.hero-text h1 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
 .hero-text p {
     margin:20px 0px;
     line-height: 1.3;

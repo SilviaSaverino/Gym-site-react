@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: "Anton", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -24,7 +24,16 @@ a{
     padding: 0.5% 10%
 }
 
+span {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+    color: #212EA0;
+}
+
 .btn {
+    font-family: "Bebas Neue", sans-serif;
     background-color: #fff;
     color: #212121;
     padding: 12px 25px;
