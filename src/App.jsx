@@ -4,6 +4,7 @@ import { Hero } from './Components/Hero/Hero'
 import Programs from './Components/Programs/Programs'
 import Title from './Components/Title/Title'
 import About from './Components/About/About'
+import Showcase from './Components/Showcase/Showcase'
 
 
 const App = () => {
@@ -17,9 +18,12 @@ const App = () => {
           title="What We Offer"
         />
         <Programs />
-        <About 
-        subTitle="About us"
-        title= "Elevate Your Fitness, Transform Your Life"/>
+        <About />
+        <Title 
+          subTitle="Showcase"
+          title="Fitness in Action"
+        />
+        <Showcase />
       </div>
   
     </div>

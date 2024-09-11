@@ -13,21 +13,21 @@ const Programs = () => {
         <div className="program">
             <img src={hiit} alt="" />
             <div className="caption">
-                <img src={hiit_icon} alt="" />
+                <img src={hiit_icon} alt="young man doing hiit exercise at the gym" />
                 <p>HIIT & Fat Burn </p>
             </div>
         </div>
         <div className="program">
             <img src={strength} alt="" />
             <div className="caption">
-                <img src={strength_icon} alt="" />
+                <img src={strength_icon} alt="young woman doing power exercise at the gym" />
                 <p>Strength & Conditioning</p>
             </div>
         </div>
         <div className="program">
             <img src={wellbeing} alt="" />
             <div className="caption">
-                <img src={wellbeing_icon} alt="" />
+                <img src={wellbeing_icon} alt="young man doing yoga exercise at the gym" />
                 <p>Mind & Body Wellness</p>
             </div>
         </div>
