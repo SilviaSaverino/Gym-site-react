@@ -30,19 +30,21 @@
 
 .about-right p {
     margin-bottom: 10px;
+    font-weight: normal;
 }
 
 
 .about h3,
 .about h2 {
     font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
 }
 
 .about h3 {
     font-size: 18px;
-    font-weight: 600;
-    color: #212EA0
+    color: #e97451;
 }
+
 
 .about h2 {
     font-size: 1.6rem;

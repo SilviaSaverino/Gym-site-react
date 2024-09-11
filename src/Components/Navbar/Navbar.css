@@ -10,6 +10,7 @@ nav {
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 5;
 }
 
 ul {
@@ -27,4 +28,9 @@ li {
 
 .logo {
     width: 100px;
+}
+
+.dark-nav {
+    background-color:#e97451;
+    transition: 0.5s;
 }

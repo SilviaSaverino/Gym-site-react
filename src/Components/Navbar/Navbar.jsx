@@ -4,7 +4,7 @@ import logo from '../../assets/logo-white.png'
 
 export const Navbar = () => {
     return (
-        <nav className='container'>
+        <nav className='container dark-nav'>
             <img className="logo" src={logo} alt="gym website logo featuring a dumbbell" />
             <ul>
                 <li>Home</li>
