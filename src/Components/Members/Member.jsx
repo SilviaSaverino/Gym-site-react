@@ -5,7 +5,7 @@ const Member = ({ member }) => {
     return (
         <div className="slide">
             <div className="member-info">
-            <img src={`./images/${member.avatarImg}`} alt={`${member.name}`} />
+            <img src={`.\images\${member.avatarImg}`} alt={`${member.name}`} />
                 <div>
                     <h3>{member.name}</h3>
                     <h4>Gym Membership <span>{member.membership}</span></h4>
