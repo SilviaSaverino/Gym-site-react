@@ -7,6 +7,7 @@ import About from './Components/About/About'
 import Showcase from './Components/Showcase/Showcase'
 import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact us/Contact'
+import Footer from './Components/Footer/Footer'
 
 
 const App = () => {
@@ -36,6 +37,7 @@ const App = () => {
           title="Get in Touch"
         />
         <Contact />
+        <Footer />
       </div>
   
     </div>
