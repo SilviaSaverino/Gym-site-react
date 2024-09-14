@@ -2,7 +2,7 @@
     margin: 80px auto;
     max-width: 90%;
     display: flex;
-    align-items: flex-start; 
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -27,8 +27,9 @@
 }
 
 .contact-col ul {
-    display: block; 
-    margin-top: 20px;;
+    display: block;
+    margin-top: 20px;
+    ;
 }
 
 .contact-col ul li {
@@ -42,4 +43,27 @@
 .contact-col ul li img {
     max-width: 20px;
     margin: 0 10px 0 0;
+}
+
+.contact form input,
+.contact form textarea {
+    display: block;
+    width: 100%;
+    background-color: #ff41083b;
+    padding: 15px;
+    border: 0;
+    outline: 0;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    resize:none;
+}
+
+input::placeholder, textarea::placeholder {
+    color:rgba(8, 0, 58, 0.4);
+    letter-spacing: 2px;
+}
+
+.contact-col span {
+    display: block;
+    margin: 20px 0;
 }
