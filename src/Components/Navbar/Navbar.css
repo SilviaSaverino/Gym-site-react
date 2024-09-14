@@ -42,3 +42,28 @@ li {
         background-color: #e97451;
     }
 }
+
+/* --------- media query ----------*/
+@media (max-width: 1000px) {
+    ul {
+        gap: 20px;
+    }
+
+    li {
+        font-size: 1.4rem;
+    }
+}
+
+@media (max-width: 770px) {
+    ul {
+        gap:10px;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+/* @media (max-width: 670px) {
+
+} */
