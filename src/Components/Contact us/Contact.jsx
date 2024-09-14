@@ -1,4 +1,5 @@
 import React from 'react'
+import config from '../../config'
 import './Contact.css'
 import msg_icon from '../../assets/images/msg-icon.png'
 import location_icon from '../../assets/images/location-icon.png'
@@ -15,7 +16,7 @@ const Contact = () => {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", process.env.REACT_APP_THE_GYM_ACCESS_KEY);
+        formData.append("access_key",config.accessKey);
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -28,7 +29,7 @@ const Contact = () => {
             setResult("Form Submitted Successfully");
             event.target.reset();
         } else {
-            console.log("Error", data);
+            console.log("Form error", data);
             setResult(data.message);
         }
     };
