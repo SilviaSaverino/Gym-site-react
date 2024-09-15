@@ -34,6 +34,10 @@ li {
     animation: backgroundFade 3s forwards;
 }
 
+.burger-menu {
+    display: none;
+}
+
 @keyframes backgroundFade {
     0% {
         background-color: transparent;
@@ -68,7 +72,7 @@ li {
     nav ul {
         position: fixed;
         top: 0;
-        right: 0;
+        right: 0px;
         bottom: 0;
         background-color: #e97451;
         z-index: -1;
@@ -82,5 +86,15 @@ li {
     nav ul li {
         width: 100%;
         margin: 25px 30px;
+    }
+
+    .burger-menu {
+        display: block;
+        cursor: pointer;
+        width: 50px;
+    }
+
+    .hide-mobile-menu {
+        right: -200px;
     }
 }
