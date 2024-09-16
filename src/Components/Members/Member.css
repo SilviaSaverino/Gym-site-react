@@ -30,3 +30,41 @@
     align-items: center;
     margin-bottom: 20px;
 }
+
+/*--------media query---------*/
+
+@media (max-width: 800px) {
+
+    .slide {
+        padding: 20px;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .slide p {
+        font-size: 14px;
+    }
+
+    .slide img {
+        width: 50px;
+    }
+
+    .member-info h3, .member-info h4, .member-info span {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 800px) {
+    .member-info {
+       display: flex;
+       flex-direction: column;  
+       text-align: center;  
+       margin: 10px;
+    }
+
+    .slide img {
+        margin: 10px auto;
+    }
+
+}
+

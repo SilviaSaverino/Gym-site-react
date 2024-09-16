@@ -21,12 +21,17 @@
 /*--------media query---------*/
 
 @media (max-width: 800px) {
+
+    .showcase {
+        margin: 50px auto;
+    }
+
     .gallery {
         flex-wrap: wrap;
     }
 
     .gallery img {
         width: 48%;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
 }

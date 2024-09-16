@@ -57,6 +57,7 @@
     .about {
         flex-direction: column;
         max-width: 435px;
+        margin: 50px auto;
     }
 
     .about-left {

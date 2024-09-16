@@ -14,3 +14,11 @@
     margin-top: 5px;
     text-transform: none;
 }
+
+/*--------media query---------*/
+
+@media (max-width: 800px) {
+    .title {
+        margin: 40px;
+    }
+}

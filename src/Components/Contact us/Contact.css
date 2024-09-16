@@ -29,7 +29,6 @@
 .contact-col ul {
     display: block;
     margin-top: 20px;
-    ;
 }
 
 .contact-col ul li {
@@ -55,15 +54,46 @@
     outline: 0;
     margin-bottom: 15px;
     margin-top: 5px;
-    resize:none;
+    resize: none;
 }
 
-input::placeholder, textarea::placeholder {
-    color:rgba(8, 0, 58, 0.4);
+input::placeholder,
+textarea::placeholder {
+    color: rgba(8, 0, 58, 0.4);
     letter-spacing: 2px;
 }
 
 .contact-col span {
     display: block;
     margin: 20px 0;
+}
+
+/*--------media query---------*/
+@media (max-width: 800px) {
+    .contact {
+        margin: 0 auto;
+    }
+
+    .contact-col h3 {
+        margin-bottom: 0;
+    }
+
+    form {
+        margin-top: 20px
+    }
+}
+
+@media (max-width: 600px) {
+    .contact {
+        flex-direction: column;
+    }
+
+    .contact-col {
+        flex-basis: 100%;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+
 }

@@ -32,12 +32,12 @@ const Testimonials = () => {
         <img src={back_icon} alt="" className='back-btn' onClick={slideBackward}/>
         <div className="slider">
         <ul ref={slider}>
-                    {memberData.map(member => (
-                        <li key={member.id}>
-                            <Member member={member} />
-                        </li>
-                    ))}
-                </ul>
+            {memberData.map(member => (
+                <li key={member.id}>
+                    <Member member={member} />
+                </li>
+            ))}
+        </ul>
         </div>
     </div>
   )

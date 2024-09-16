@@ -10,3 +10,20 @@
 .footer li {
     font-size: 1rem;
 }
+
+/*--------media query---------*/
+
+@media (max-width: 600px) {
+
+    .footer {
+        flex-direction: column;
+    }
+
+    .footer p, footer span{
+        font-size:14px;
+    }
+
+    .footer li {
+        margin: 5px;
+    }
+}

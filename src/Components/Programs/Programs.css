@@ -50,6 +50,7 @@
 @media (max-width: 670px) {
     .programs {
         flex-direction: column;
+        margin: 50px auto;
     }
 
     .program img {
