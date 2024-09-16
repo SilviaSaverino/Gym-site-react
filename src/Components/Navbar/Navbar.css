@@ -20,8 +20,8 @@ ul {
 }
 
 li {
-    font-family: "Bebas Neue", sans-serif !important;
-    font-size: 1.6rem; 
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.7rem; 
     cursor: pointer;
 }
 
@@ -52,19 +52,15 @@ li {
     ul {
         gap: 20px;
     }
-
-    li {
-        font-size: 1.4rem;
-    }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 800px) {
     ul {
         gap:10px;
     }
 
     li {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 }
 
@@ -80,7 +76,7 @@ li {
         padding-top: 70px;
         transition: 0.5s;
         display: block;
-        padding: 10px 5px;
+        padding: 70px 5px;
     }
 
     nav ul li {
@@ -96,5 +92,13 @@ li {
 
     .hide-mobile-menu {
         right: -200px;
+    }
+}
+
+@media (max-width: 400px) {
+    .burger-menu {
+        width: 40px;
+        position: fixed;
+        right: 50px;
     }
 }

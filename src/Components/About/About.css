@@ -40,16 +40,33 @@
 
 .about h2 {
     letter-spacing: 1.2px;
+    margin: 10px 0;
+    font-size: 2rem;
 }
 
+
 .about h3 {
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #e97451;
     letter-spacing: 2px;
 }
 
+/* --------- media query ----------*/
 
-.about h2 {
-    font-size: 1.6rem;
-    margin: 10px 0;
+@media (max-width: 900px) {
+    .about {
+        flex-direction: column;
+        max-width: 435px;
+    }
+
+    .about-left {
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+    }
+
+    .about-right {
+        flex-basis: 100%;
+    }
 }
+

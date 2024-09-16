@@ -23,7 +23,7 @@ const App = () => {
         <Programs />
         <About />
         <Title 
-          subTitle="Showcase"
+          subTitle="Showcase Gallery"
           title="Fitness in Action"
         />
         <Showcase />

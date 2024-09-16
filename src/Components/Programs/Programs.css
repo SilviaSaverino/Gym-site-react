@@ -45,3 +45,16 @@
     opacity: 1;
     padding-top: 20%;
 }
+
+/* --------- media query ----------*/
+@media (max-width: 670px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program img {
+        width: 60%;
+        margin: 10px auto;
+    } 
+
+}
