@@ -13,7 +13,8 @@ import Video from './Components/Video/Video'
 
 const App = () => {
 
-  
+const [showVideo, setShowVideo] = React.useState(false)
+
   return (
     <div>
       <Navbar />
@@ -24,7 +25,7 @@ const App = () => {
           title="What We Offer"
         />
         <Programs />
-        <About />
+        <About setShowVideo={setShowVideo}/>
         <Title 
           subTitle="Showcase Gallery"
           title="Fitness in Action"
@@ -42,7 +43,7 @@ const App = () => {
         <Contact />
         <Footer />
       </div>
-      <Video />
+      <Video showVideo={showVideo} setShowVideo={setShowVideo}/>
     </div>
   )
 }
